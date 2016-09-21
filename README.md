@@ -1,6 +1,6 @@
 ﻿# HelloBackendSpringBoot
  
-REST-service with resource /hello/contacts?nameFilter=val
+REST-service 'hello' with resource /hello/contacts?nameFilter=val
 
 Returns array of contacts in JSON format from the database table 'contacts', except records where 'contacts.name' matches the regular expression (the value of the parameter 'nameFilter').
 
