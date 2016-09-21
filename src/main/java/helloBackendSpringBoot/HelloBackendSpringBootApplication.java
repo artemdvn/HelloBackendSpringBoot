@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("helloBackendSpringBoot.service")
-@ComponentScan("helloBackendSpringBoot.dao")
+@ComponentScan("helloBackendSpringBoot.service, helloBackendSpringBoot.dao")
 public class HelloBackendSpringBootApplication {	
 
 	public static void main(String[] args) {
